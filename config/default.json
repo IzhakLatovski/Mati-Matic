@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://admin-izhak:a1234567@cluster0.byotr.mongodb.net/gameDB?retryWrites=true&w=majority",
-    "jwtSecret": "izhakssecrettoken"
+    "mongoURI": "mongodb+srv://...",
+    "jwtSecret": "..."
 }
