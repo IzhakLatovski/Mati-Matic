@@ -1,0 +1,68 @@
+/* Global Styles */
+:root {
+  --primary-color: #17a2b8;
+  --dark-color: #343a40;
+  --light-color: #f4f4f4;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 100vh;
+}
+
+.landing {
+  text-align: center;
+  background-color: var(--dark-color);
+  height: 400px;
+}
+
+.landing button {
+  display: block;
+  font-size: 1.4rem;
+  margin: 2rem auto;
+  width: 200px;
+  height: 50px;
+  background-color: var(--success-color);
+  border: solid 3px;
+  border-radius: 5px;
+}
+
+
+
+.register {
+  text-align: center;
+  background-color: var(--dark-color);
+  height: 400px;
+}
+
+.register input {
+  display: block;
+  font-size: 1rem;
+  margin: 2rem auto;
+  width: 200px;
+  height: 20px;
+}
+
+#submit-button {
+  height: 40px;
+}
+
+.alert {
+  padding: 0.8rem;
+  margin: 1rem 0;
+  opacity: 0.9;
+  background: var(--light-color);
+  color: #333;
+  border-radius: 4px;
+}
+
+.alert-danger {
+  background: var(--danger-color);
+  color: #fff;
+}
+
+.aa {
+  color: var(--light-color);
+}
